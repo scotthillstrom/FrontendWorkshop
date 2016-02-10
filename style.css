@@ -1,40 +1,29 @@
 html
 {
-background-color: lightblue;
+background-color: #6C7B8B;
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 }
 
 
+body{
+width: 100%;
+}
+
 ul li {
     list-style-type: disc;
     display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
-h1 {
-    font-size: 2.25em;
-    color: darkmagenta;
-    margin-top: 0.66667em;
-    margin-bottom: 0.66667em
-}
-h2 {
-    font-size: 1.5em;
-    margin-top: 1em;
-    color: mediumpurple;
-    margin-bottom: 1em
-}
-h3 {
-    font-size: 1.3125em;
-    color: darkgoldenrod;
-    margin-top: 1.14286em;
-    margin-bottom: 1.14286em
+
+h1, h2, h3, h4 {
+    color: #CCCCCC;
+    line-height: 20px;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0,0,10px,0;
 }
 
-h1, h2, h3
-{
-	line-height: 20px;
-	vertical-align: bottom;
-	margin: 0,0,10px,0;
-	border-bottom: 1px solid black;;
 
-}
