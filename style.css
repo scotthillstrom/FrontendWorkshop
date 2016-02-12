@@ -14,7 +14,7 @@ ul li {
     list-style-type: disc;
     display: inline-block;
     text-align: center;
-    width: 100%;
+
 }
 
 
@@ -25,5 +25,130 @@ h1, h2, h3, h4 {
     text-align: center;
     margin: 0,0,10px,0;
 }
+
+/*a:hover{
+    text-decoration: underline;
+}
+*/
+a
+{
+	color:black;
+	text-decoration: none;
+    display: inline;
+}
+
+li a
+{
+	color: #FFF;
+    text-transform: uppercase;
+    display: inline;
+    font: 14px "gothamLight", arial, sans-serif;
+    text-decoration: none;
+}
+
+.real-headers, .favorite-foods {
+    text-align: center;
+}
+
+.real-headers li {
+    display: inline;
+}
+
+.favorite-foods li{
+display: inline-block;
+}
+
+.favorite-foods a {
+    display: block;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.favorite-foods a:hover {
+color: black;
+font-weight: bold;
+
+
+}
+
+
+.favorite-foods a::before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    opacity: 0.0;
+    transition: all 0.4s;
+}
+
+.favorite-foods a:hover::before{
+    opacity: .25;
+    right: 50%;
+}
+
+.favorite-foods a::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+    opacity: 0.0;
+    transition: all 0.4s;
+}
+
+.favorite-foods a:hover::after{
+    opacity: .25;
+    left: 50%;
+}
+
+/*
+
+.favorite-foods a::before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0.5;
+    transform: translateX(0px);
+    transition: all 0.3s;
+}
+
+.favorite-foods a:hover::before{
+    transform: translateX(0px);
+    width: 50%;
+    opacity: .5;
+
+}
+
+.favorite-foods a::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    opacity: 0.5;
+    transform: translateX(0px);
+    transition: all 2s;
+}
+
+.favorite-foods a:hover::after{
+    transform: translateX(-100%);
+    width: 50%;
+    opacity: .5;
+}
+*/
+
 
 
